@@ -1,6 +1,6 @@
 # mulfok's dotfiles
 
-![cover](i.postimg.cc/T3qHmpWn/screenshot-20261110-021252.png)
+![cover](https://i.postimg.cc/T3qHmpWn/screenshot-20261110-021252.png)
 
 > The configuration I use on my desktop!
 
