@@ -13,18 +13,15 @@ require("config.autocmds")
 
 -- plugins and packs
 vim.pack.add({
-	"https://github.com/nvim-tree/nvim-web-devicons",
-	"https://github.com/nvim-tree/nvim-tree.lua", 
-	"https://github.com/ibhagwan/fzf-lua",
-	"https://github.com/shortcuts/no-neck-pain.nvim",
-	{
-		src = "https://github.com/obsidian-nvim/obsidian.nvim",
-		version = vim.version.range "*",
-	},
-	"https://github.com/catgoose/nvim-colorizer.lua",
+	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+	{ src = "https://github.com/nvim-tree/nvim-tree.lua" },
+	{ src = "https://github.com/ibhagwan/fzf-lua" },
+	{ src = "https://github.com/shortcuts/no-neck-pain.nvim" },
+	{ src = "https://github.com/obsidian-nvim/obsidian.nvim", version = vim.version.range "*" },
+	{ src = "https://github.com/catgoose/nvim-colorizer.lua" },
 	{ src = "https://github.com/nvim-mini/mini.nvim", version = "stable" },
-	"https://github.com/kawre/neotab.nvim",
-	"https://github.com/RRethy/base16-nvim",
+	{ src = "https://github.com/kawre/neotab.nvim" },
+	{ src = "https://github.com/RRethy/base16-nvim" },
 })
 
 require("plugins.nvim-tree")
@@ -32,6 +29,7 @@ require("plugins.fzf")
 require("plugins.obsidian")
 require("plugins.no-neck-pain")
 require("plugins.neotab")
+require("plugins.colorizer")
 
 require("plugins.simple")
 

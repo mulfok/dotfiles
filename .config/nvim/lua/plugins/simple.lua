@@ -1,3 +1,3 @@
-require("colorizer").setup()
+-- require("colorizer").setup()
 require("mini.pairs").setup()
 require("mini.comment").setup()

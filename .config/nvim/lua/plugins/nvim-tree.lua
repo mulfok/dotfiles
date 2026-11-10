@@ -10,7 +10,7 @@ end
 require("nvim-tree").setup({
 	on_attach = on_attach,
 	view = { width = 48 },
-	filters = { dotfiles = true },
+	filters = { dotfiles = false },
 })
 
 vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<cr>",   { desc = "Toggle file tree" })

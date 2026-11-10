@@ -1,3 +1,12 @@
 [theme.templates.user.obsidian_extra]
 input_path  = "/home/mulfok/.config/noctalia/templates/obsidian.css"
 output_path = "/win/Documents/Naga/.obsidian/snippets/noctalia.css"
+
+# disable monitor on elgato
+[bar.default.monitor.mirror]
+match = "HDMI-A-1"
+enabled = false
+
+[notification]
+monitors = ["DP-2", "DP-1"]
+
