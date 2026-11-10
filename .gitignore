@@ -1,1 +1,5 @@
 wallpapers/videos/
+matugen.lua
+noctalia*
+!**/.config/noctalia/
+**/.config/nvim/lua/matugen.lua

@@ -13,17 +13,19 @@ This is my curated backup of dotfiles from my computer that I manage using [Stow
 ## Programmes
 Below is a big list of the various things I require for my desktop, and which apps/programmes I use to do the job.
 
-- Terminal
-    - [kitty](https://github.com/kovidgoyal/kitty)
-- dmenu
-    - [fuzzel](https://codeberg.org/dnkl/fuzzel)
-- Window Manager
-    - [MangoWM](https://mangowm.github.io/)
-- Quickshell
-    - [noctalia](https://noctalia.dev)
-- Text Editor
-    - [nvim](https://neovim.io)
-    - [micro](https://micro-editor.github.io/)
+I update this as an when I swap out/try new tools.
+
+| Category | Tool |
+| --- | --- |
+| Window Manager | [MangoWM](https://mangowm.github.io/) |
+| Launcher | [fuzzel](https://codeberg.org/dnkl/fuzzel) |
+| Terminal | [kitty](https://github.com/kovidgoyal/kitty) |
+| Status Bar | [noctalia](https://noctalia.dev) |
+| Shell | [noctalia](https://noctalia.dev) |
+| Wallpapers | [noctalia](https://noctalia.dev) |
+| Notif Daemon | [mako](https://github.com/emersion/mako) |
+| Desktop Portal | xdg-desktop portal, xdg-desktop-portal-wlr |
+| Clipboard | wl-clipboard |
 
 ## Keybinds
 Here's a BIG disclaimer about my keybinds. I use **Colemak-DH,** not QWERTY.
