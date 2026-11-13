@@ -22,6 +22,7 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.nvim", version = "stable" },
 	{ src = "https://github.com/kawre/neotab.nvim" },
 	{ src = "https://github.com/RRethy/base16-nvim" },
+	{ src = "https://github.com/Bakudankun/PICO-8.vim" },
 })
 
 require("plugins.nvim-tree")
@@ -30,6 +31,7 @@ require("plugins.obsidian")
 require("plugins.no-neck-pain")
 require("plugins.neotab")
 require("plugins.colorizer")
+require("plugins.pico8")
 
 require("plugins.simple")
 

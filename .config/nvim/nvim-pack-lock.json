@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "PICO-8.vim": {
+      "rev": "34f8442d29ccf7f42fc500a78348eb38cec1f2ce",
+      "src": "https://github.com/Bakudankun/PICO-8.vim"
+    },
     "base16-nvim": {
       "rev": "bd9ad214eaeefec5f937cb49effc3c0ffb2f57ac",
       "src": "https://github.com/RRethy/base16-nvim"
